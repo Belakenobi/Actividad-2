@@ -5,27 +5,27 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Tahoma', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: #f5f5f5;
+    color: #473812;
+    background: #f7ef96;
     min-height: 100vh;
     padding: 20px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 60px rgba(0, 0, 0, 0.6);
     overflow: hidden;
 }
 
 header {
-    background: #6c757d;
-    color: white;
-    padding: 30px;
+    background: #cce9fc;
+    color: black;
+    padding: 20px;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ main {
     padding: 15px 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
     transition: border-color 0.2s ease;
     background: white;
 }
@@ -66,10 +66,10 @@ main {
 
 #addTaskBtn {
     padding: 15px 30px;
-    background: #6c757d;
+    background: #f9df1b;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -78,7 +78,7 @@ main {
 }
 
 #addTaskBtn:hover {
-    background: #5a6268;
+    background: #a8d3f4;
 }
 
 
@@ -197,30 +197,30 @@ main {
 }
 
 .btn-edit {
-    background: #868e96;
+    background: #4b69fc;
     color: white;
 }
 
 .btn-edit:hover {
-    background: #6c757d;
+    background: #4bc1fc;
 }
 
 .btn-delete {
-    background: #6c757d;
+    background: red;
     color: white;
 }
 
 .btn-delete:hover {
-    background: #5a6268;
+    background: #fc864b;
 }
 
 .btn-save {
-    background: #6c757d;
+    background: #00c44b;
     color: white;
 }
 
 .btn-save:hover {
-    background: #5a6268;
+    background: #9fed95;
 }
 
 .btn-cancel {
@@ -236,7 +236,7 @@ main {
     text-align: center;
     padding: 40px;
     color: #7f8c8d;
-    font-size: 18px;
+    font-size: 20px;
     font-style: italic;
 }
 
