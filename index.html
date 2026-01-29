@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gestión de Tareas</h1>
+        </header>
+        
+        <main>
+            <section class="task-input">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        placeholder="Ingresa una nueva tarea..."
+                        maxlength="100"
+                    >
+                    <button id="addTaskBtn">Agregar Tarea</button>
+                </div>
+                <div id="errorMessage" class="error-message"></div>
+            </section>
+            
+            <section class="task-list">
+                <h2>Lista de Tareas</h2>
+                <ul id="taskList" class="tasks">
+                    <!-- Las tareas se agregarán dinámicamente aquí -->
+                </ul>
+                <div id="emptyState" class="empty-state">
+                    <p>No hay tareas aún. ¡Agrega tu primera tarea!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
